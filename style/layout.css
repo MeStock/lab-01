@@ -1,0 +1,45 @@
+p {
+    text-align: center;
+    position: relative;
+    top: 43%;
+}
+
+main {
+    overflow: hidden;
+}
+
+@media(max-width: 768px){
+    main {
+        width: 480px;
+    }
+
+    li {
+        float: left;
+        width: 480px;
+    }
+}
+
+@media(min-width: 767px){
+    main {
+        width: 960px;
+    }
+
+    li{
+        float: left;
+        width: 960px;
+    }
+
+    main > div:nth-child(3) {
+        float: right;
+    }
+
+    main > div:nth-child(4) {
+        float: right;
+    }
+    
+    main > div:last-child {
+        float: right;
+    }
+
+}
+
