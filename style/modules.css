@@ -1,92 +1,219 @@
-@media(max-width: 768px){
-    main > div:first-child > ul > li{
-        height: 75px;
+@media(max-width: 659px){
+		main {
+				width: 480px;
+		}
+
+		ul {
+				width: 480px;
+			}
+
+		main > ul:first-child{
+				height: 75px;
+		}
+
+    main > ul:first-child > li{
         background-color: rgba(255, 0, 0, 0.87);
     }
 
-    main > div:nth-child(2)> ul > li{
+    main > ul:nth-child(2){
         height: 150px;
+    }
+
+    main > ul:nth-child(2) > li{
         background-color: rgb(255, 94, 0);
     }
-
-    main > div:nth-child(3) > ul > li{
-        height: 125px;
-        background-color: orange;
+    div {
+        height: 830px;
     }
 
-    main > div:nth-child(3) > ul > li:last-child{
+    main > div > ul:first-child > li{
+        height: 50%;
+        width: 100%;
+        background-color: orange;
+    }
+    main > div > ul:first-child{
+        height: 250px;
+    }
+
+    main > div > ul:first-child > li:last-child{
         background-color: yellow;    
     }
 
-    main > div:nth-child(4) > ul > li{
+    main > div ul:nth-child(2){
+        height: 500px;
+    }
+
+    main > div > ul:nth-child(2) > li{
         height: 250px;
-        width: 240px;
+        width: 50%;
         background-color: rgb(109, 128, 0);
     }
 
-    main > div:nth-child(4) > ul > li:nth-child(2){
+    main > div > ul:nth-child(2) > li:nth-child(2){
         background-color: rgb(0, 128, 68);
     }
 
-    main > div:nth-child(4) > ul > li:nth-child(3){
+    main > div > ul:nth-child(2) > li:nth-child(3){
         background-color: rgb(0, 140, 255);
     }
 
-    main > div:nth-child(4) > ul > li:last-child{
+    main > div > ul:nth-child(2) > li:last-child{
         background-color: blue;
     }
 
-    main > div:last-child > ul > li{
+    main > div > ul:last-child{
         height: 80px;
-        background-color: purple;
     }
+
+    main > div > ul:last-child > li{
+        height: 100%;
+        background-color: purple;
+		}
+	}
+
+@media(min-width: 660px){
+	main {
+		width: 660px;
+	}
+	
+	ul {
+		width: 100%;
+	}
+
+	main > ul:first-child > li{
+			height: 100px;
+			background-color: #000000000;
+	}
+
+	main > ul:nth-child(2){
+			height: 100px;
+	}
+
+	main > ul:nth-child(2) > li{
+			background-color: #00000011;
+
+	}
+
+	div {
+			height: 500px;
+			width: 660px;
+	}
+
+	main > div > ul:first-child{
+			height: 100px;
+	}
+
+	main > div > ul:first-child > li{
+			width: 50%;
+			background-color: #00000022;
+
+	}
+
+	main > div > ul:first-child > li:last-child{
+			background-color: #00000033;
+	}
+
+	main > div > ul:nth-child(2) {
+			height: 250px;
+	}
+
+	main > div > ul:nth-child(2) > li{
+			width: 25%;
+			background-color: #00000044;
+	}
+
+	main > div > ul:nth-child(2) > li:nth-child(2){
+			background-color: #00000055;
+	}
+
+	main > div > ul:nth-child(2) > li:nth-child(3){
+			background-color: #00000066;
+	}
+
+	main > div > ul:nth-child(2) > li:last-child{
+			background-color: r#00000077;
+	}
+
+	main > div > ul:last-child{
+			height: 150px;
+	}
+
+	main > div > ul:last-child > li{
+			width: 100%;
+			background-color: #00000088;
+	}
 }
 
-@media(min-width: 767px){
-    main > div:first-child > ul > li{
+@media(min-width: 960px){
+	main {
+		width: 960px;
+	}	
+
+	ul {
+        width: 960px;
+    }
+
+    main > ul:first-child > li{
         height: 100px;
         background-color: purple;
     }
 
-    main > div:nth-child(2) > ul > li{
+    main > ul:nth-child(2){
         height: 600px;
-        width: 200px;
+        width:200px;
+    }
+
+    main > ul:nth-child(2) > li{
         background-color: blue;
 
     }
 
-    main > div:nth-child(3) > ul > li{
+    div {
+        height: 600px;
+        width: 760px;
+    }
+
+    main > div > ul:first-child{
         height: 200px;
-        width: 380px;
+    }
+
+    main > div > ul:first-child > li{
+        width: 50%;
         background-color: rgb(0, 140, 255);
 
     }
 
-    main > div:nth-child(3) > ul > li:last-child{
+    main > div > ul:first-child > li:last-child{
         background-color: rgb(0, 128, 68);
     }
-    
-    main > div:nth-child(4) > ul > li{
+
+    main > div > ul:nth-child(2) {
         height: 250px;
-        width: 190px;
+    }
+    
+    main > div > ul:nth-child(2) > li{
+        width: 25%;
         background-color: rgb(109, 128, 0);
     }
 
-    main > div:nth-child(4) > ul > li:nth-child(2){
+    main > div > ul:nth-child(2) > li:nth-child(2){
         background-color: yellow;
     }
 
-    main > div:nth-child(4) > ul > li:nth-child(3){
+    main > div > ul:nth-child(2) > li:nth-child(3){
         background-color: orange;
     }
 
-    main > div:nth-child(4) > ul > li:last-child{
+    main > div > ul:nth-child(2) > li:last-child{
         background-color: rgb(255, 94, 0);
     }
 
-    main > div:last-child > ul > li{
+    main > div > ul:last-child{
         height: 150px;
-        width: 760px;
+    }
+
+    main > div > ul:last-child > li{
+        width: 100%;
         background-color: rgba(255, 0, 0, 0.87);
     }
 }

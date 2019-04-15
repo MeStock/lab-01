@@ -5,41 +5,42 @@ p {
 }
 
 main {
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-@media(max-width: 768px){
-    main {
-        width: 480px;
+@media(max-width: 659px){
+    div {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    li {
-        float: left;
-        width: 480px;
+    main > div > ul:nth-child(2){
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
-@media(min-width: 767px){
-    main {
-        width: 960px;
+@media(min-width: 660px){
+    div {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    li{
-        float: left;
-        width: 960px;
+    main > div > ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(min-width: 960px){
+    div {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    main > div:nth-child(3) {
-        float: right;
+    div > ul:first-child, div > ul:nth-child(2){
+        display: flex;
     }
-
-    main > div:nth-child(4) {
-        float: right;
-    }
-    
-    main > div:last-child {
-        float: right;
-    }
-
 }
 
